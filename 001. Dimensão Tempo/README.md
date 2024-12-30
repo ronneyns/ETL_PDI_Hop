@@ -12,8 +12,6 @@ O processo gerará um conjunto de dados com vários atributos dentro do período
 ![Pipeline](dim_tem_tempo.png)
 
 ## Saída
-Como pode ser visto na figura, o resultado do processo está direcionado para um arquivo (008. Text file output), mas também pode ser facilmente direcionada a um banco de dados (Table output).
-
 Os campos resultantes são os seguintes:
 - tem\_srk\_tempo: Chave única para identificar um data no conjunto de tempo especificado
 - tem\_bsk\_tempo: Um data qualquer dentro do período especificado para a dimensão (por exemplo, 30/12/1899);
@@ -65,7 +63,8 @@ Os campos resultantes são os seguintes:
 - tem\_str\_primeiro\_dia\_ano: Indica se a data é primeiro dia do ano;
 - tem\_str\_ultimo\_dia\_ano: Indica se a data é último dia do ano.
 
-## Anexo
+Como pode ser visto na figura, o resultado do processo está direcionado para um arquivo (008. Text file output), mas também pode ser facilmente direcionada a um banco de dados (Table output).
+
 O arquivo ["dim_tem_tempo.csv"](dim_tem_tempo.csv) é uma amostra do resultado total do processo mostrando apenas os seguintes intervalos de datas:
 - 30/12/1899 a 31/12/1901;
 - 01/01/2024 a 31/12/2025;
