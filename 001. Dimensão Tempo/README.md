@@ -63,7 +63,7 @@ Os campos resultantes são os seguintes:
 - tem\_str\_primeiro\_dia\_ano: Indica se a data é primeiro dia do ano;
 - tem\_str\_ultimo\_dia\_ano: Indica se a data é último dia do ano.
 
-Como pode ser visto na figura, o resultado do processo está direcionado para um arquivo (008. Text file output), mas também pode ser facilmente direcionada a um banco de dados (Table output).
+Como pode ser visto na figura, o resultado do processo está direcionado para um arquivo CSV pela *transform* "008. Text file output", mas também pode ser direcionado a uma tabela de banco de dados (por uma *transform* "Table output").
 
 O arquivo ["dim_tem_tempo.csv"](dim_tem_tempo.csv) é uma amostra do resultado total do processo mostrando apenas os seguintes intervalos de datas:
 - 30/12/1899 a 31/12/1901;
