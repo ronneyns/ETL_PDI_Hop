@@ -61,7 +61,11 @@ Os campos resultantes são os seguintes:
 - tem\_str\_primeiro\_dia\_semestre: Indica se a data é primeiro dia do semestre;
 - tem\_str\_ultimo\_dia\_semestre: Indica se a data é último dia do semestre;
 - tem\_str\_primeiro\_dia\_ano: Indica se a data é primeiro dia do ano;
-- tem\_str\_ultimo\_dia\_ano: Indica se a data é último dia do ano.
+- tem\_str\_ultimo\_dia\_ano: Indica se a data é último dia do ano;
+- tem\_str\_primeiro\_dia\_quinquenio: Indica se a data é primeiro dia do quinquênio;
+- tem\_str\_ultimo\_dia\_quinquenio: Indica se a data é último dia do quinquênio;
+- tem\_str\_primeiro\_dia\_decada: Indica se a data é primeiro dia da década;
+- tem\_str\_ultimo\_dia\_decada: Indica se a data é último dia da década.
 
 Como pode ser visto na figura, o resultado do processo está direcionado para um arquivo CSV pela *transform* "Text file output", mas também pode ser direcionado a uma tabela de banco de dados (por uma *transform* "Table output").
 
