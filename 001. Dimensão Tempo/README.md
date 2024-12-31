@@ -46,10 +46,10 @@ Os campos resultantes são os seguintes:
 - tem\_str\_semestre: Semestre do ano como texto (valores "Jan-Jun", "Jul-Dez");
 - tem\_num\_ano: Ano (valores de 1899 a 2099);
 - tem\_str\_ano: Ano como texto (valores de "1899" a "2099");
-- tem_num_quinquenio: Período de 5 anos (valores de 1895, 1900, 1905 a 2095);
-- tem_str_quinquenio: Período de 5 anos como texto (valores como "1895-1899", "1900-1905", "2020-2024", "2025-2029", "2095-2099");
-- tem\_num\_decada: Década (valores de 1890 a 2090);
-- tem\_str\_decada: Década como texto (valores de "1890-1899", "1900-1909", "2010-2019", "2020-2029", "2090-2099");
+- tem_num_quinquenio: Período de 5 anos (valores como 1895, 1900, 1905 ... 2020, 2025 ... 2090, 2095);
+- tem_str_quinquenio: Período de 5 anos como texto (valores como "1895-1899", "1900-1905" ... "2020-2024", "2025-2029" ... "2090-2094", "2095-2099");
+- tem\_num\_decada: Década (valores de 1890, 1900, 1910 ... 2010, 2020 ... 2080, 2090);
+- tem\_str\_decada: Década como texto (valores de "1890-1899", "1900-1909" ... "2010-2019", "2020-2029" ... "2080-2089", "2090-2099");
 - tem\_str\_primeiro\_dia\_competencia: Indica se a data é primeiro dia da competência;
 - tem\_str\_ultimo\_dia\_competencia: Indica se a data é último dia da competência;
 - tem\_str\_primeiro\_dia\_bimestre: Indica se a data é primeiro dia do bimestre;
