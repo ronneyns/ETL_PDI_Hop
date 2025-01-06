@@ -23,7 +23,8 @@ Os campos resultantes são os seguintes:
 - tem\_num\_dia\_semana: Dia da semana (valores de 1 a 7);
 - tem\_str\_dia\_semana: Dia da semana como texto (valores de "01" a "07");
 - tem\_str\_dia\_semana_sigla: Descrição curta do dia da semana (valores de "Dom" a "Sáb");
-- tem\_str\_dia\_semana_descricao: Descrição do dia da semana (valores de "Domingo" a "Sábado");
+- tem\_str\_dia\_semana_curto: Descrição do dia da semana (valores de "Domingo", "Segunda", ...., "Sexta", "Sábado");
+- tem\_str\_dia\_semana_completo: Descrição do dia da semana (valores de "Domingo, "Segunda-feira", ...., "Sexta-feira", "Sábado");
 - tem\_num\_dia\_ano: Dia no ano (valores de 1 a 366);
 - tem\_str\_dia\_ano: Dia no ano como texto (valores de "001" a "366");
 - tem\_num\_semana\_ano: Semana no ano (valores de 1 a 52);
@@ -46,10 +47,12 @@ Os campos resultantes são os seguintes:
 - tem\_str\_semestre: Semestre do ano como texto (valores "Jan-Jun", "Jul-Dez");
 - tem\_num\_ano: Ano (valores de 1899 a 2099);
 - tem\_str\_ano: Ano como texto (valores de "1899" a "2099");
-- tem_num_quinquenio: Período de 5 anos (valores como 1895, 1900, 1905 ... 2020, 2025 ... 2090, 2095);
+- tem_num_bienio: Período de 2 anos (valores como 1899, 1901, 1903 ... 2021, 2023, 2025 ... 2095, 2097, 2099);
+- tem_str_bienio: Período de 2 anos como texto (valores como "1899-1900", "1901-1902", "1903-1904" ... "2023-2024", "2025-2026" ... "2096-2097", "2098-2099");
+- tem_num_quinquenio: Período de 5 anos (valores como 1896, 1901, 1906 ... 2021, 2026 ... 2091, 2096);
 - tem_str_quinquenio: Período de 5 anos como texto (valores como "1895-1899", "1900-1905" ... "2020-2024", "2025-2029" ... "2090-2094", "2095-2099");
-- tem\_num\_decada: Década (valores de 1890, 1900, 1910 ... 2010, 2020 ... 2080, 2090);
-- tem\_str\_decada: Década como texto (valores de "1890-1899", "1900-1909" ... "2010-2019", "2020-2029" ... "2080-2089", "2090-2099");
+- tem\_num\_decada: Década (valores de 1891, 1901, 1911 ... 2011, 2021 ... 2081, 2091);
+- tem\_str\_decada: Década como texto (valores de "1891-1900", "1901-1910" ... "2011-2020", "2021-2030" ... "2081-2090", "2091-2100");
 - tem\_str\_primeiro\_dia\_competencia: Indica se a data é primeiro dia da competência;
 - tem\_str\_ultimo\_dia\_competencia: Indica se a data é último dia da competência;
 - tem\_str\_primeiro\_dia\_bimestre: Indica se a data é primeiro dia do bimestre;
