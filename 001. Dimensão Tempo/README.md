@@ -1,7 +1,7 @@
 # Dimensão Tempo
 
 ## Objetivo
-Realizar a carga da dimensão Tempo para uso em um Data Warehouse, permitindo uma maior capacidade de estratificação de datas.
+Realizar a carga da dimensão Tempo para uso em um Data Warehouse, permitindo uma maior capacidade de análise temporal por meio da estratificação de datas e períodos variados.
 
 ## Ferramenta
 Apache Hop 2.9
@@ -47,10 +47,10 @@ Os campos resultantes são os seguintes:
 - tem\_str\_semestre: Semestre do ano como texto (valores "Jan-Jun", "Jul-Dez");
 - tem\_num\_ano: Ano (valores de 1899 a 2099);
 - tem\_str\_ano: Ano como texto (valores de "1899" a "2099");
-- tem_num_bienio: Período de 2 anos (valores como 1899, 1901, 1903 ... 2021, 2023, 2025 ... 2095, 2097, 2099);
+- tem_num_bienio: Período de 2 anos (valores como 1899, 1901, 1903 ... 2023, 2025 ... 2095, 2097, 2099);
 - tem_str_bienio: Período de 2 anos como texto (valores como "1899-1900", "1901-1902", "1903-1904" ... "2023-2024", "2025-2026" ... "2096-2097", "2098-2099");
 - tem_num_quinquenio: Período de 5 anos (valores como 1896, 1901, 1906 ... 2021, 2026 ... 2091, 2096);
-- tem_str_quinquenio: Período de 5 anos como texto (valores como "1895-1899", "1900-1905" ... "2020-2024", "2025-2029" ... "2090-2094", "2095-2099");
+- tem_str_quinquenio: Período de 5 anos como texto (valores como "1896-1900", "1901-1905" ... "2021-2025", "2026-2030" ... "2091-2095", "2096-2100");
 - tem\_num\_decada: Década (valores de 1891, 1901, 1911 ... 2011, 2021 ... 2081, 2091);
 - tem\_str\_decada: Década como texto (valores de "1891-1900", "1901-1910" ... "2011-2020", "2021-2030" ... "2081-2090", "2091-2100");
 - tem\_str\_primeiro\_dia\_competencia: Indica se a data é primeiro dia da competência;
