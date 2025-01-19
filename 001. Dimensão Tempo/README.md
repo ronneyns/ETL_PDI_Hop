@@ -56,7 +56,7 @@ Os campos resultantes são os seguintes:
 - tem\_flg\_primeiro\_dia\_bimestre: Indica se a data é primeiro dia do bimestre ("S", "N");
 - tem\_flg\_ultimo\_dia\_bimestre: Indica se a data é último dia do bimestre ("S", "N");
 - tem\_cod\_trimestre: Trimestre do ano (valores de 1 a 4);
-- tem\_str\_trimestre: Bimestre do ano como texto (valores "Jan-Mar", "Abr-Jun", "Jul-Set", "Out-Dez");
+- tem\_str\_trimestre: Trimestre do ano como texto (valores "Jan-Mar", "Abr-Jun", "Jul-Set", "Out-Dez");
 - tem\_flg\_primeiro\_dia\_trimestre: Indica se a data é primeiro dia do trimestre ("S", "N");
 - tem\_flg\_ultimo\_dia\_trimestre: Indica se a data é último dia do trimestre ("S", "N");
 - tem\_cod\_quadrimestre: Quadrimestre do ano (valores de 1 a 3);
