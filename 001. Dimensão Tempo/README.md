@@ -15,7 +15,9 @@ O processo gerará um conjunto de dados com vários atributos dentro do período
 
 ## Saída
 
-Como pode ser visto na figura, o resultado do processo está direcionado para um arquivo CSV pela *transform* "Text file output", mas também pode ser direcionado a uma tabela de banco de dados (por uma *transform* "Table output").
+Como pode ser visto na figura, o resultado do processo está direcionado para um arquivo CSV pela *transform* "Text file output", mas também pode ser direcionado a outros tipos de saída como:
+- uma tabela de banco de dados (por uma *transform* "Table output");
+- um arquivo Parquet.
 
 O arquivo ["dim_tem_tempo.csv"](dim_tem_tempo.csv) é uma amostra do resultado total do processo mostrando apenas os seguintes intervalos de datas:
 - 30/12/1899 a 31/12/1901;
