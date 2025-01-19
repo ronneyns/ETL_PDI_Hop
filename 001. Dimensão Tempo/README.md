@@ -14,6 +14,14 @@ O processo gerará um conjunto de dados com vários atributos dentro do período
 ![Pipeline](dim_tem_tempo.png)
 
 ## Saída
+
+Como pode ser visto na figura, o resultado do processo está direcionado para um arquivo CSV pela *transform* "Text file output", mas também pode ser direcionado a uma tabela de banco de dados (por uma *transform* "Table output").
+
+O arquivo ["dim_tem_tempo.csv"](dim_tem_tempo.csv) é uma amostra do resultado total do processo mostrando apenas os seguintes intervalos de datas:
+- 30/12/1899 a 31/12/1901;
+- 01/01/2024 a 31/12/2025;
+- 01/01/2099 a 31/12/2100.
+
 Os campos resultantes são os seguintes:
 - tem\_cod\_srk\_tempo: Chave única para identificar um data no conjunto de tempo especificado
 - tem\_dat\_bsk\_tempo: Um data qualquer dentro do período especificado para a dimensão (por exemplo, 30/12/1899);
@@ -73,11 +81,4 @@ Os campos resultantes são os seguintes:
 - tem\_str\_decada: Década como texto (valores de "1891-1900", "1901-1910" ... "2011-2020", "2021-2030" ... "2081-2090", "2091-2100");
 - tem\_flg\_primeiro\_dia\_decada: Indica se a data é primeiro dia da década ("S", "N");
 - tem\_flg\_ultimo\_dia\_decada: Indica se a data é último dia da década ("S", "N").
-
-Como pode ser visto na figura, o resultado do processo está direcionado para um arquivo CSV pela *transform* "Text file output", mas também pode ser direcionado a uma tabela de banco de dados (por uma *transform* "Table output").
-
-O arquivo ["dim_tem_tempo.csv"](dim_tem_tempo.csv) é uma amostra do resultado total do processo mostrando apenas os seguintes intervalos de datas:
-- 30/12/1899 a 31/12/1901;
-- 01/01/2024 a 31/12/2025;
-- 01/01/2099 a 31/12/2100.
 
