@@ -27,8 +27,8 @@ O arquivo ["dim_tem_tempo.csv"](dim_tem_tempo.csv) é uma amostra do resultado t
 Os campos resultantes são os seguintes:
 - tem\_cod\_srk\_tempo: Chave única para identificar um data no conjunto de tempo especificado
 - tem\_dat\_bsk\_tempo: Um data qualquer dentro do período especificado para a dimensão (por exemplo, 30/12/1899);
-- tem\_str\_data\_dmy: Data como texto no formato DD/MM/YYYY (por exemplo, 30/12/1899);
-- tem\_str\_data\_ymd: Data como texto no formato YYYY-MM-DD (por exemplo, 1899-12-30);
+- tem\_str\_data\_dmy: Data como texto no formato DD/MM/YYYY (por exemplo, "30/12/1899");
+- tem\_str\_data\_ymd: Data como texto no formato YYYY-MM-DD (por exemplo, "1899-12-30");
 - tem\_str\_data_extenso: Descrição do dia por extenso (por exemplo, "Sábado, 30 de Dezembro de 1899");
 - tem\_cod\_dia: Dia do mês (valores de 1 a 31);
 - tem\_str\_dia: Dia do mês como texto (valores de "01" a "31");
