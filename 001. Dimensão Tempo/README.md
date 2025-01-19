@@ -39,40 +39,40 @@ Os campos resultantes são os seguintes:
 - tem\_str\_competencia: Competência como texto (valores como "01/1900", "01/2020", "12/2024", "01/2025" etc.)
 - tem\_str\_competencia1: Competência como texto em outro formato (valores como "Jan/1900", "Jan/2020", "Dez/2024", "Jan/2025" etc.)
 - tem\_str\_competencia2: Competência como texto em outro formato (valores como "1900-01", "2020-01", "2024-12", "2025-01" etc.)
-- tem\_str\_primeiro\_dia\_competencia: Indica se a data é primeiro dia da competência;
-- tem\_str\_ultimo\_dia\_competencia: Indica se a data é último dia da competência;
+- tem\_flg\_primeiro\_dia\_competencia: Indica se a data é primeiro dia da competência;
+- tem\_flg\_ultimo\_dia\_competencia: Indica se a data é último dia da competência;
 - tem\_cod\_bimestre: Bimestre do ano (valores de 1 a 6);
 - tem\_str\_bimestre: Bimestre do ano como texto (valores "Jan-Fev", "Mar-Abr", "Mai-Jun", "Jul-Ago", "Set-Out", "Nov-Dez");
-- tem\_str\_primeiro\_dia\_bimestre: Indica se a data é primeiro dia do bimestre;
-- tem\_str\_ultimo\_dia\_bimestre: Indica se a data é último dia do bimestre;
+- tem\_flg\_primeiro\_dia\_bimestre: Indica se a data é primeiro dia do bimestre;
+- tem\_flg\_ultimo\_dia\_bimestre: Indica se a data é último dia do bimestre;
 - tem\_cod\_trimestre: Trimestre do ano (valores de 1 a 4);
 - tem\_str\_trimestre: Bimestre do ano como texto (valores "Jan-Mar", "Abr-Jun", "Jul-Set", "Out-Dez");
-- tem\_str\_primeiro\_dia\_trimestre: Indica se a data é primeiro dia do trimestre;
-- tem\_str\_ultimo\_dia\_trimestre: Indica se a data é último dia do trimestre;
+- tem\_flg\_primeiro\_dia\_trimestre: Indica se a data é primeiro dia do trimestre;
+- tem\_flg\_ultimo\_dia\_trimestre: Indica se a data é último dia do trimestre;
 - tem\_cod\_quadrimestre: Quadrimestre do ano (valores de 1 a 3);
 - tem\_str\_quadrimestre: Quadrimestre do ano como texto (valores "Jan-Abr", "Mai-Ago", "Set-Dez");
-- tem\_str\_primeiro\_dia\_quadrimestre: Indica se a data é primeiro dia do quadrimestre;
-- tem\_str\_ultimo\_dia\_quadrimestre: Indica se a data é último dia do quadrimestre;
+- tem\_flg\_primeiro\_dia\_quadrimestre: Indica se a data é primeiro dia do quadrimestre;
+- tem\_flg\_ultimo\_dia\_quadrimestre: Indica se a data é último dia do quadrimestre;
 - tem\_cod\_semestre: Semestre do ano (valores de 1 a 2);
 - tem\_str\_semestre: Semestre do ano como texto (valores "Jan-Jun", "Jul-Dez");
-- tem\_str\_primeiro\_dia\_semestre: Indica se a data é primeiro dia do semestre;
-- tem\_str\_ultimo\_dia\_semestre: Indica se a data é último dia do semestre;
+- tem\_flg\_primeiro\_dia\_semestre: Indica se a data é primeiro dia do semestre;
+- tem\_flg\_ultimo\_dia\_semestre: Indica se a data é último dia do semestre;
 - tem\_cod\_ano: Ano (valores de 1899 a 2099);
 - tem\_str\_ano: Ano como texto (valores de "1899" a "2099");
-- tem\_str\_primeiro\_dia\_ano: Indica se a data é primeiro dia do ano;
-- tem\_str\_ultimo\_dia\_ano: Indica se a data é último dia do ano;
+- tem\_flg\_primeiro\_dia\_ano: Indica se a data é primeiro dia do ano;
+- tem\_flg\_ultimo\_dia\_ano: Indica se a data é último dia do ano;
 - tem\_cod\_bienio: Ano inicial de um período de 2 anos (valores como 1899, 1901, 1903 ... 2023, 2025 ... 2095, 2097, 2099);
 - tem\_str\_bienio: Período de 2 anos como texto (valores como "1899-1900", "1901-1902", "1903-1904" ... "2023-2024", "2025-2026" ... "2097-2098", "2099-2100");
-- tem\_str\_primeiro\_dia\_bienio: Indica se a data é primeiro dia do biênio;
-- tem\_str\_ultimo\_dia\_bienio: Indica se a data é último dia do biênio;
+- tem\_flg\_primeiro\_dia\_bienio: Indica se a data é primeiro dia do biênio;
+- tem\_flg\_ultimo\_dia\_bienio: Indica se a data é último dia do biênio;
 - tem\_cod\_quinquenio: Ano inicial de um período de 5 anos (valores como 1896, 1901, 1906 ... 2021, 2026 ... 2091, 2096);
 - tem\_str\_quinquenio: Período de 5 anos como texto (valores como "1896-1900", "1901-1905" ... "2021-2025", "2026-2030" ... "2091-2095", "2096-2100");
-- tem\_str\_primeiro\_dia\_quinquenio: Indica se a data é primeiro dia do quinquênio;
-- tem\_str\_ultimo\_dia\_quinquenio: Indica se a data é último dia do quinquênio;
+- tem\_flg\_primeiro\_dia\_quinquenio: Indica se a data é primeiro dia do quinquênio;
+- tem\_flg\_ultimo\_dia\_quinquenio: Indica se a data é último dia do quinquênio;
 - tem\_cod\_decada: Ano inicial de um período de 10 anos (valores de 1891, 1901, 1911 ... 2011, 2021 ... 2081, 2091);
 - tem\_str\_decada: Década como texto (valores de "1891-1900", "1901-1910" ... "2011-2020", "2021-2030" ... "2081-2090", "2091-2100");
-- tem\_str\_primeiro\_dia\_decada: Indica se a data é primeiro dia da década;
-- tem\_str\_ultimo\_dia\_decada: Indica se a data é último dia da década.
+- tem\_flg\_primeiro\_dia\_decada: Indica se a data é primeiro dia da década;
+- tem\_flg\_ultimo\_dia\_decada: Indica se a data é último dia da década.
 
 Como pode ser visto na figura, o resultado do processo está direcionado para um arquivo CSV pela *transform* "Text file output", mas também pode ser direcionado a uma tabela de banco de dados (por uma *transform* "Table output").
 
