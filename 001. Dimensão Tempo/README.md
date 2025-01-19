@@ -24,7 +24,7 @@ Os campos resultantes são os seguintes:
 - tem\_str\_dia: Dia do mês como texto (valores de "01" a "31");
 - tem\_cod\_dia\_semana: Dia da semana (valores de 1 a 7);
 - tem\_str\_dia\_semana: Dia da semana como texto (valores de "01" a "07");
-- tem\_str\_dia\_semana_sigla: Descrição curta do dia da semana (valores de "Dom" a "Sáb");
+- tem\_str\_dia\_semana_sigla: Descrição curta do dia da semana (valores de "Dom", "Seg", ... "Sex", "Sáb");
 - tem\_str\_dia\_semana_curto: Descrição do dia da semana (valores de "Domingo", "Segunda", ...., "Sexta", "Sábado");
 - tem\_str\_dia\_semana_completo: Descrição do dia da semana (valores de "Domingo, "Segunda-feira", ...., "Sexta-feira", "Sábado");
 - tem\_cod\_dia\_ano: Dia no ano (valores de 1 a 366);
