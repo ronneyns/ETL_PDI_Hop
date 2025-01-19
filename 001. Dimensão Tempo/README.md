@@ -11,7 +11,6 @@ Apache Hop 2.9
 ## Processo
 O processo gerará um conjunto de dados com vários atributos dentro do período de 30/12/1899 a 31/12/2100.
 
-![Pipeline](dim_tem_tempo.png)
 
 ## Saída
 Os campos resultantes são os seguintes:
